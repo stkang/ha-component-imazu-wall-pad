@@ -10,7 +10,7 @@ from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from imazu_wall_pad import ImazuGateway, ImazuWallPadConfigEntry
+from . import ImazuGateway, ImazuWallPadConfigEntry
 from .const import BRAND_NAME
 from .gateway import EntityData
 from .helper import host_to_last

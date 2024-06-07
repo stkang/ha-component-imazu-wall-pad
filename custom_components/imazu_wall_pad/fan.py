@@ -13,7 +13,7 @@ from homeassistant.util.percentage import (
     ordered_list_item_to_percentage,
     percentage_to_ordered_list_item,
 )
-from imazu_wall_pad import ImazuGateway, ImazuWallPadConfigEntry
+from . import ImazuGateway, ImazuWallPadConfigEntry
 from .gateway import EntityData
 from .wall_pad import WallPadDevice
 

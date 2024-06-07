@@ -12,7 +12,7 @@ from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.helpers.restore_state import RestoredExtraData, RestoreEntity
 from homeassistant.util import Throttle
-from imazu_wall_pad import ImazuGateway
+from . import ImazuGateway
 from .const import (
     ATTR_DEVICE,
     ATTR_ROOM_ID,
