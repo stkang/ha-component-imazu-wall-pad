@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "description": "설정을 시작하시겠습니까?"
+      },
+      "user": {
+        "description": "호스트 IP와 포트를 입력해주세요.",
+        "data": {
+          "host": "Host : Socket IP(192.168.x.x).",
+          "port": "Port : Port. (default:8899)"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "이미 구성되었습니다. 하나의 인스턴스만 구성할 수 있습니다."
+    },
+    "error": {
+      "cannot_connect": "연결하지 못했습니다.",
+      "unknown": "예상치 못한 오류가 발생했습니다"
+    }
+  }
+}

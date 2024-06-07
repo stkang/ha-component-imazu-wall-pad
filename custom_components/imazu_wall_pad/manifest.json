@@ -1,0 +1,11 @@
+{
+  "domain": "imazu_wall_pad",
+  "name": "IMAZU 월패드",
+  "codeowners": ["@stkang90"],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/imazu_wall_pad",
+  "dependencies": [],
+  "requirements": ["wp-imazu==0.0.34"],
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}
