@@ -3,8 +3,8 @@
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import EVENT_HOMEASSISTANT_STOP
 from homeassistant.core import Event, HomeAssistant
-from imazu_wall_pad.custom_components.imazu_wall_pad.const import DOMAIN, PLATFORMS
-from imazu_wall_pad.custom_components.imazu_wall_pad.gateway import ImazuGateway
+from .const import DOMAIN, PLATFORMS
+from .gateway import ImazuGateway
 
 type ImazuWallPadConfigEntry = ConfigEntry[ImazuGateway]  # noqa: F821
 
