@@ -15,8 +15,9 @@
 문의 : 네이버 [HomeAssistant카페](https://cafe.naver.com/koreassistant)
 
 ## 현대 HT: Imazu Wall Pad가 도움이 되셨나요?
-TOSS로 기부하기  
-<img src="./images/toss-donation.png" title="TOSS Donation" width="200"  alt="TOSS Donation"/>
+| TOSS로 기부하기                                                                                                                                                          | 카카오 페이로 기부하기                                                                                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://github.com/stkang/ha-component-imazu-wall-pad/blob/master/images/toss-donation.png?raw=true" title="TOSS Donation" alt="TOSS Donation" width="200" /> | <img src="https://github.com/stkang/ha-component-imazu-wall-pad/blob/master/images/kakao-donation.png?raw=true" title="Kakao Donation" alt="https://qr.kakaopay.com/Ej8KRJWgv" width="200" /> | 
 
 ## 준비물
 - EW11
