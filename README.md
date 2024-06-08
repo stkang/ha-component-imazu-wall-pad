@@ -2,7 +2,7 @@
 
 ![HACS][hacs-shield]
 
-<img src="./images/showcase.png" title="Showcase" alt="Showcase" />
+<img src="https://github.com/stkang/ha-component-imazu-wall-pad/blob/master/images/showcase.png?raw=true" title="Showcase" alt="Showcase" />
 
 ## 기능
 - 전등 (Light): On/Off
@@ -85,7 +85,7 @@ More Settings:
 - 검색창에서 `Imazu` 입력 후 선택
 - Host, Port 입력
 
-<img src="./images/config_flow.png" title="ConfigFlow" alt="ConfigFlow" />
+<img src="https://github.com/stkang/ha-component-imazu-wall-pad/blob/master/images/config_flow.png?raw=true" title="ConfigFlow" alt="ConfigFlow" />
 
 
 
