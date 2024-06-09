@@ -3,7 +3,7 @@
   "name": "IMAZU 월패드",
   "codeowners": ["@stkang90"],
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/imazu_wall_pad",
+  "documentation": "https://github.com/stkang/ha-component-imazu-wall-pad",
   "dependencies": [],
   "requirements": ["wp-imazu==0.0.34"],
   "iot_class": "local_polling",
