@@ -56,6 +56,7 @@ class WPLight(WallPadDevice[LightPacket], LightEntity):
     """Representation of a Wall Pad light."""
 
     _attr_supported_color_modes = ColorMode.ONOFF
+    _attr_color_mode = ColorMode.ONOFF
 
     @property
     def is_on(self) -> bool:

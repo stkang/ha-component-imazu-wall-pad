@@ -73,7 +73,10 @@ class WPAwayLight(WallPadDevice[AwayPacket], BinarySensorEntity):
     @property
     def is_on(self) -> bool:
         """Return true if away light is on."""
-        return self.packet.state["power"] == AwayPacket.Power.ON
+        return (
+            "power" in self.packet.state
+            and self.packet.state["power"] == AwayPacket.Power.ON
+        )
 
     @property
     def icon(self) -> str:
@@ -104,7 +107,10 @@ class WPAwayGasValve(WallPadDevice[AwayPacket], BinarySensorEntity):
     @property
     def is_on(self) -> bool:
         """Return true if gas valve is open."""
-        return self.packet.state["valve"] == AwayPacket.Valve.OPEN
+        return (
+            "valve" in self.packet.state
+            and self.packet.state["valve"] == AwayPacket.Valve.OPEN
+        )
 
     @property
     def icon(self) -> str:
