@@ -111,7 +111,7 @@ class WPDimmer(WallPadDevice[DimmingPacket], LightEntity):
             brightness = round(kwargs[ATTR_BRIGHTNESS] * 3 / 255)
             make_packet = self.packet.make_change_brightness(brightness)
         else:
-            make_packet = self.packet.make_change_brightness(1)
+            make_packet = self.packet.make_change_brightness(3)
 
         await super().async_send_packet(make_packet)
 
