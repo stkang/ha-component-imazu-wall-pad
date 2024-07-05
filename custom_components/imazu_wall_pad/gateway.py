@@ -12,6 +12,7 @@ from wp_imazu.packet import (
     GasPacket,
     ImazuPacket,
     LightPacket,
+    DimmingPacket,
     OutletPacket,
     FanPacket,
     ThermostatPacket,
@@ -53,7 +54,7 @@ def _parse_platform(packet: ImazuPacket) -> Platform:
         return Platform.SWITCH
     if isinstance(packet, ThermostatPacket):
         return Platform.CLIMATE
-    if isinstance(packet, LightPacket):
+    if isinstance(packet, (LightPacket, DimmingPacket)):
         return Platform.LIGHT
     if isinstance(packet, FanPacket):
         return Platform.FAN
