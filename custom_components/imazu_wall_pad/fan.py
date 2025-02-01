@@ -104,7 +104,11 @@ class WPFan(WallPadDevice[FanPacket], FanEntity):
     @property
     def supported_features(self) -> FanEntityFeature:
         """Flag supported features."""
-        features = FanEntityFeature.PRESET_MODE
+        features = (
+                FanEntityFeature.PRESET_MODE 
+                | FanEntityFeature.TURN_OFF 
+                | FanEntityFeature.TURN_ON
+        )
         if self.preset_mode == MODE_MANUAL:
             features |= FanEntityFeature.SET_SPEED
         return features
